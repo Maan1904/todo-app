@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+.main {
+  background-color: hsl(235, 21%, 11%);
+  color: white;
+  height: 100vh;
+}
+.bkimg {
+  width: 100%;
+  display: flex;
+  height: 250px;
+}
+.todo {
+  display: flex;
+  justify-content: space-between;
+  background-color: transparent;
+  align-items: center;
+}
+.easy {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  background-color: transparent;
+  width: 450px;
+}
+.todo h1 {
+  font-size: 50px;
+  background-color: transparent;
+}
+.todo img {
+  height: 30px;
+  background-color: transparent;
+  object-fit: cover;
+}
+.moon {
+  display: none;
+}
+.spacing {
+  /* padding: 0px 480px; */
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: hsl(235, 24%, 19%);
+
+  padding: 24px;
+  margin-bottom: 20px;
+}
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.allsections {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: -250px;
+  background-color: transparent;
+}
+.allcards {
+  display: flex;
+  flex-direction: column-reverse;
+  background-color: hsl(235, 24%, 19%);
+  position: relative;
+}
+.card2 {
+  padding: 20px 2px;
+  padding-left: 30px;
+  padding-right: 295px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border-bottom: 1px solid rgb(87, 84, 84);
+}
+
+.card3 {
+  background-color: white;
+  color: black;
+}
+.top {
+  background-color: transparent;
+}
+.s {
+  background-color: transparent;
+  font-weight: 50;
+  opacity: 85%;
+}
+.newx {
+  padding: 13px 200px;
+  background-color: white;
+  padding: 1px 30px;
+  opacity: 15%;
+  font-weight: 100;
+  /* position: relative; */
+  /* z-index: 99; */
+}
+.by {
+  display: flex;
+  align-items: center;
+}
+.allinput {
+  background-color: transparent;
+  display: flex;
+  gap: 30px;
+}
+.input {
+  background-color: transparent;
+}
+.place {
+  background-color: transparent;
+  width: 100%;
+  border: none;
+  outline: none;
+  color: #fff;
+}
+.card4 {
+  padding: 17px 24px;
+  display: flex;
+  justify-content: space-between;
+  background-color: hsl(235, 24%, 19%);
+}
+.prag {
+  display: flex;
+
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  color: rgb(200, 200, 200);
+}
+.maan {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  border: 1px white solid;
+  background: linear-gradient(
+    to right,
+    hsl(192, 100%, 67%),
+    hsl(280, 87%, 65%)
+  );
+}
+.inputform {
+  background-color: aqua;
+}
+.pop6 {
+  cursor: pointer;
+}
+.active {
+  text-decoration: line-through;
+  opacity: 0.4;
+}
